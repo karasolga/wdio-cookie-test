@@ -1,7 +1,7 @@
 import { browser, expect } from '@wdio/globals';
 
 describe('tests cookies', () => {
-    it('should check if the cookies are set', async () => {
+    it('should successfully retrieve all session cookies after page load', async () => {
         await browser.url('https://github.com');
         const wdCookieValue = (await browser.getCookies());
         console.log(`Webdriver sees Secure Cookie: ${wdCookieValue}`);
