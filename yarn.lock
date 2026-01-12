@@ -4179,7 +4179,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:^4.7.2":
+"tsx@npm:^4.21.0, tsx@npm:^4.7.2":
   version: 4.21.0
   resolution: "tsx@npm:4.21.0"
   dependencies:
@@ -4341,6 +4341,7 @@ __metadata:
     "@wdio/cli": "npm:^9.23.0"
     "@wdio/local-runner": "npm:^9.23.0"
     "@wdio/mocha-framework": "npm:^9.23.0"
+    tsx: "npm:^4.21.0"
     typescript: "npm:^5.9.3"
     webdriverio: "npm:^9.23.0"
   languageName: unknown
